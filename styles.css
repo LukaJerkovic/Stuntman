@@ -18,6 +18,106 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+    right: 150px;
+    background-color: transparent;
+}
+
+
+
+.topnav a {    
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize
+    ; 
+}
+
+.topnav a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+.profile-img img{
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: 155px;
+    right: 155px;
+    
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: white;    
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about{
+    height: max-content;
+    width: 100%;
+    padding: 100px 0px;    
+    
+    background-size: cover;
+    
+}
+
+
+.about .container {
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 60px;
+
+}
+
+.about-text {
+    width: 550px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(61, 57, 57);
+    background-size: cover;
+    background-position: center;
+}
+
+.topnav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
